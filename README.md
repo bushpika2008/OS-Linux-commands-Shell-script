@@ -42,17 +42,21 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+<img width="305" height="118" alt="Screenshot from 2026-07-28 14-05-37" src="https://github.com/user-attachments/assets/a7acfb97-a6ab-4e5b-ab59-56ad1756980d" />
+
 
 
 
 cat < file2
 ## OUTPUT
+<img width="363" height="151" alt="Screenshot from 2026-07-28 14-06-24" src="https://github.com/user-attachments/assets/208cb039-c2a5-4e4f-9290-6f89bda36088" />
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ <img width="460" height="57" alt="Screenshot from 2026-07-28 14-07-15" src="https://github.com/user-attachments/assets/194f7d70-5da1-4a46-8925-135487f4d979" />
+
 comm file1 file2
  ## OUTPUT
 
