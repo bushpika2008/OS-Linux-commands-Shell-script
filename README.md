@@ -97,15 +97,18 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
+<img width="495" height="82" alt="Screenshot from 2026-07-29 10-27-49" src="https://github.com/user-attachments/assets/90a8fe6b-12b7-4f2b-a9c0-974cd3c484ef" />
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
+<img width="518" height="119" alt="Screenshot from 2026-07-29 10-28-14" src="https://github.com/user-attachments/assets/0e7953de-2b38-4dcc-8134-5d5109e5dd39" />
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+<img width="518" height="119" alt="Screenshot from 2026-07-29 10-28-40" src="https://github.com/user-attachments/assets/12256dcc-681b-4187-b60b-89c3af33c417" />
 
 cat < newfile 
 ```
@@ -120,6 +123,7 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
+<img width="621" height="52" alt="Screenshot from 2026-07-29 10-29-45" src="https://github.com/user-attachments/assets/dfaf42cf-df9b-4efe-bbec-a037fb30f58d" />
 
 
 
@@ -127,10 +131,12 @@ grep hello newfile
 ## OUTPUT
 
 
+<img width="621" height="52" alt="Screenshot from 2026-07-29 10-30-06" src="https://github.com/user-attachments/assets/fbcfbbb8-b824-41f6-a058-70f9d3c1baf0" />
 
 
 grep -v hello newfile 
 ## OUTPUT
+<img width="621" height="52" alt="Screenshot from 2026-07-29 10-30-34" src="https://github.com/user-attachments/assets/9bc97a04-657d-42b6-9bc4-2926b4b3de43" />
 
 
 
@@ -138,6 +144,7 @@ grep -v hello newfile
 cat newfile | grep -i "hello"
 ## OUTPUT
 
+<img width="618" height="80" alt="Screenshot from 2026-07-29 10-30-55" src="https://github.com/user-attachments/assets/9c41fc9c-4de2-47eb-b6c3-93409b7a17b6" />
 
 
 
@@ -145,16 +152,19 @@ cat newfile | grep -i "hello"
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
+<img width="620" height="52" alt="Screenshot from 2026-07-29 10-31-17" src="https://github.com/user-attachments/assets/904c1809-138d-42e1-a677-77dbad3cd7a5" />
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
+<img width="1920" height="1080" alt="Screenshot from 2026-07-29 10-31-59" src="https://github.com/user-attachments/assets/186c8da5-224b-4720-a152-dfb64b145afe" />
 
 
 
 grep -w -n world newfile   
 ## OUTPUT
+<img width="680" height="74" alt="Screenshot from 2026-07-29 10-32-59" src="https://github.com/user-attachments/assets/db835f5e-1298-4025-a93c-428debe3d044" />
 
 
 cat < newfile 
