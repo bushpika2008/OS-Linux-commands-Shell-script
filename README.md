@@ -188,57 +188,69 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+<img width="628" height="78" alt="Screenshot from 2026-07-29 10-34-49" src="https://github.com/user-attachments/assets/7f89f05e-b54b-420b-8444-f1556de64913" />
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+<img width="628" height="78" alt="Screenshot from 2026-07-29 10-35-15" src="https://github.com/user-attachments/assets/875b1178-6fdf-44eb-b9da-d8098388a079" />
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
+<img width="628" height="78" alt="Screenshot from 2026-07-29 10-35-53" src="https://github.com/user-attachments/assets/33a1c048-8fe0-49d3-84ff-20a3a559896c" />
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
 
+<img width="610" height="63" alt="Screenshot from 2026-07-29 10-36-26" src="https://github.com/user-attachments/assets/fe7691fb-29d6-42e6-93bc-9751851cde33" />
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
+<img width="615" height="76" alt="Screenshot from 2026-07-29 10-36-49" src="https://github.com/user-attachments/assets/9f4a178f-b01d-491f-8718-2e444845c97b" />
 
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+<img width="615" height="76" alt="Screenshot from 2026-07-29 10-37-08" src="https://github.com/user-attachments/assets/beb57e60-63da-447a-b056-1a04d222202f" />
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 
+<img width="616" height="108" alt="Screenshot from 2026-07-29 10-37-45" src="https://github.com/user-attachments/assets/d53a3711-1c8a-47b7-a53d-4e0ccbc7e8c8" />
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+<img width="609" height="66" alt="Screenshot from 2026-07-29 10-38-08" src="https://github.com/user-attachments/assets/09d0602b-2ba6-4a15-b235-bec8d7389f91" />
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
 
+<img width="613" height="80" alt="Screenshot from 2026-07-29 10-38-37" src="https://github.com/user-attachments/assets/d57773da-4952-446a-9b26-77a2d8f66389" />
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+<img width="608" height="59" alt="Screenshot from 2026-07-29 10-39-11" src="https://github.com/user-attachments/assets/16d7e79a-c1d0-4b67-8b68-f8a543ee3929" />
 
 
 egrep l{2} newfile
 ## OUTPUT
 
+<img width="613" height="79" alt="Screenshot from 2026-07-29 10-39-32" src="https://github.com/user-attachments/assets/9a822a53-b5c0-41f6-811d-a68a262f8d4c" />
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+<img width="617" height="104" alt="Screenshot from 2026-07-29 10-39-54" src="https://github.com/user-attachments/assets/50f4fca3-60f3-4760-a687-aa44b2cf5aac" />
 
 
 cat > file23
