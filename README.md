@@ -449,9 +449,11 @@ gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ <img width="653" height="98" alt="Screenshot from 2026-07-29 13-54-24" src="https://github.com/user-attachments/assets/9117a9d3-b7c5-4713-97c1-9b61a3976402" />
+
 gunzip backup.tar.gz
 ## OUTPUT
+<img width="653" height="98" alt="Screenshot from 2026-07-29 13-55-12" src="https://github.com/user-attachments/assets/36d95102-ff97-4637-8b57-39d79857bda5" />
 
  
 # Shell Script
@@ -462,6 +464,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+<img width="684" height="128" alt="Screenshot from 2026-07-29 14-15-15" src="https://github.com/user-attachments/assets/4c3de69f-4b55-4950-b0c2-576adc3ef6d5" />
 
  
 cat << stop > herecheck.txt
