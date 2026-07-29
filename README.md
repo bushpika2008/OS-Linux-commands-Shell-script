@@ -437,10 +437,13 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+<img width="799" height="393" alt="Screenshot from 2026-07-29 11-04-27" src="https://github.com/user-attachments/assets/0520b5e2-c70d-4aa7-8f73-1039cf709a38" />
+
 
 
 tar -xvf backup.tar
 ## OUTPUT
+<img width="805" height="330" alt="Screenshot from 2026-07-29 11-05-52" src="https://github.com/user-attachments/assets/a7dcc62b-b636-4e97-a1b1-df54baf485c4" />
 
 gzip backup.tar
 
