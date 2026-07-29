@@ -374,6 +374,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+<img width="655" height="155" alt="Screenshot from 2026-07-29 10-57-16" src="https://github.com/user-attachments/assets/66b00abf-d963-4a68-b9ed-a7f600803294" />
 
 
 cat > file22
@@ -388,12 +389,14 @@ cat > file22
 uniq file22
 ## OUTPUT
 
+<img width="655" height="155" alt="Screenshot from 2026-07-29 10-58-42" src="https://github.com/user-attachments/assets/50c9672c-53bf-4177-b19e-ba626391df39" />
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+<img width="639" height="247" alt="Screenshot from 2026-07-29 11-00-04" src="https://github.com/user-attachments/assets/589650a4-1fb5-4fe1-9455-f1f167c8ed61" />
 
 cat < urllist.txt
 ```
@@ -410,17 +413,20 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+<img width="647" height="119" alt="Screenshot from 2026-07-29 11-01-03" src="https://github.com/user-attachments/assets/e1ba500c-bddc-4037-a428-a8def039edef" />
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
+<img width="647" height="119" alt="Screenshot from 2026-07-29 11-01-23" src="https://github.com/user-attachments/assets/9b3cd9bc-c071-4046-945c-5cf1be4f6d1e" />
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+<img width="645" height="332" alt="Screenshot from 2026-07-29 11-01-56" src="https://github.com/user-attachments/assets/0d2211fe-5e84-4b41-901a-5224f4fe971b" />
 
 
 mkdir backupdir
