@@ -464,9 +464,8 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
-<img width="684" height="128" alt="Screenshot from 2026-07-29 14-15-15" src="https://github.com/user-attachments/assets/4c3de69f-4b55-4950-b0c2-576adc3ef6d5" />
+<img width="690" height="116" alt="Screenshot from 2026-07-29 14-24-02" src="https://github.com/user-attachments/assets/7ca858b0-78fb-4c97-af36-efe5fa8f0489" />
 
- 
 cat << stop > herecheck.txt
 ```
 hello in this world
