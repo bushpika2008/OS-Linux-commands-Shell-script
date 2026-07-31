@@ -476,6 +476,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+<img width="372" height="126" alt="image" src="https://github.com/user-attachments/assets/fa204e9b-cbca-46d0-bdaa-eddb71b90751" />
 
 
 cat < scriptest.sh 
@@ -514,6 +515,7 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+<img width="477" height="182" alt="image" src="https://github.com/user-attachments/assets/9c1f7bbc-8e76-47d2-9f3c-d88ec869c26e" />
 
  
 ls file1
