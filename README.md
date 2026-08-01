@@ -935,6 +935,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+<img width="387" height="395" alt="image" src="https://github.com/user-attachments/assets/1ac138be-5b8e-43d0-8a47-861c9a044fa6" />
 
 
 cat forctype.sh 
@@ -1000,6 +1001,7 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+<img width="392" height="202" alt="image" src="https://github.com/user-attachments/assets/90870d6d-236c-4559-a64a-7faa5711ad11" />
 
 $ chmod 755 forbreak.sh
  
@@ -1025,7 +1027,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ <img width="516" height="276" alt="image" src="https://github.com/user-attachments/assets/95b5fef0-635a-476f-b11c-3fdaa6ed5fc0" />
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -1039,6 +1042,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+<img width="550" height="192" alt="image" src="https://github.com/user-attachments/assets/5cde0378-a4a9-4630-9a51-72ffa58accde" />
 
 
  cat exread1.sh
@@ -1051,6 +1055,7 @@ echo "Hello $name, welcome to my program. “
 $ chmod 755 exread1.sh 
 
 ## OUTPUT
+<img width="560" height="150" alt="image" src="https://github.com/user-attachments/assets/03839440-e728-4a20-8e41-799d201b98b4" />
 
 
 
@@ -1072,7 +1077,10 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
+c<img width="531" height="185" alt="image" src="https://github.com/user-attachments/assets/d726eff4-b8e5-40db-9ca8-06b64d2475ba" />
+
  ./funcex.sh 
+<img width="592" height="191" alt="image" src="https://github.com/user-attachments/assets/572a8d3a-6ee7-42fd-b33a-c1d16d5dbb4a" />
 
  
  ./funcex.sh 1 2
@@ -1089,23 +1097,18 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
+<img width="512" height="456" alt="image" src="https://github.com/user-attachments/assets/55d68d7d-7dc9-4edd-9e97-adb9e86a1d42" />
+
 $ ./argshift.sh 1 2 3
  
  cat argshift1.sh
 ```bash
- #/bin/bash 
- # store arguments in a special array 
-args=("$@") 
-# get number of elements 
-ELEMENTS=${#args[@]} 
- # echo each element in array  
-# for loop 
-for (( i=0;i<$ELEMENTS;i++)); do 
-    echo ${args[${i}]} 
-done
+
 ```
 $ chmod 777 argshift.sh
 ## OUTPUT
+<img width="457" height="231" alt="image" src="https://github.com/user-attachments/assets/ef871b8c-35ef-4cf1-88f2-4fc2d97abebe" />
+
 $ ./argshift.sh 1 2 3
  
 cat argshift.sh
@@ -1119,6 +1122,8 @@ done
 set +x
 ```
 ## OUTPUT
+<img width="495" height="557" alt="image" src="https://github.com/user-attachments/assets/f465c3f0-9bd5-492c-a893-ca0192403e1c" />
+
  ./argshift.sh 1 2 3
  
  
@@ -1151,7 +1156,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ <img width="417" height="382" alt="image" src="https://github.com/user-attachments/assets/8ee70c1a-58db-4bf3-a25e-fae3ef8b9321" />
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1179,6 +1185,7 @@ fi
 ```
 ## OUTPUT 
 
+<img width="481" height="237" alt="image" src="https://github.com/user-attachments/assets/2e809210-a4ce-4850-90e0-9889226b9673" />
 
 # RESULT:
 The Commands are executed successfully.
