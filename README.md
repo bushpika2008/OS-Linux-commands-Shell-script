@@ -747,6 +747,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+<img width="622" height="180" alt="image" src="https://github.com/user-attachments/assets/e700be41-73a6-482c-8886-d0cdcbd47b11" />
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -775,6 +776,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+<img width="460" height="125" alt="image" src="https://github.com/user-attachments/assets/406421fe-af06-4c9a-83a3-5c6af1065c87" />
 
 
 # testing compound comparisons
@@ -791,6 +793,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+<img width="591" height="127" alt="image" src="https://github.com/user-attachments/assets/d659ad40-ea51-44e9-b34a-99a4a53f49b7" />
 
 # using the case command
 cat >casecheck.sh 
@@ -810,7 +813,8 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+ <img width="417" height="126" alt="image" src="https://github.com/user-attachments/assets/eb263eff-cb9b-4b6d-a5a9-3a4cb6061d5b" />
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -825,7 +829,8 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+ <img width="602" height="357" alt="image" src="https://github.com/user-attachments/assets/0b1d1649-2389-4c1e-8708-1a16cc8a72e4" />
+
  
 cat untiltest.sh 
 ```bash
@@ -838,6 +843,7 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
+<img width="451" height="216" alt="image" src="https://github.com/user-attachments/assets/a0239c4c-7f04-48fe-8657-9ec659a708f5" />
  
  
  
@@ -852,7 +858,8 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
+ <img width="380" height="246" alt="image" src="https://github.com/user-attachments/assets/c606a0d8-4af2-4fcd-8a80-bdf552be3932" />
+
  
 cat forin2.sh 
 ```bash
@@ -876,6 +883,8 @@ echo “word:$test”
 done
 ```
 $ chmod 755 forin2.sh
+<img width="532" height="187" alt="image" src="https://github.com/user-attachments/assets/757cf0f7-7225-4b53-85ba-1ca22c1fa9b7" />
+
  
 $ ./forin2.sh 
  
@@ -889,7 +898,8 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
+ <img width="532" height="187" alt="image" src="https://github.com/user-attachments/assets/d0242fac-2125-49dd-9b55-94a4bab60f00" />
+
 cat forin1.sh 
 ```bash
 #!/bin/bash
@@ -902,6 +912,8 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+<img width="407" height="255" alt="image" src="https://github.com/user-attachments/assets/904cb963-c36d-476f-b46f-98a8b692cd92" />
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -912,7 +924,7 @@ do
 echo "Visit beautiful $file“
 done
 ```
-$ chmod 777 forinfile.sh
+$ chmod 777 forinfile.shcat 
 $ cat cities
 Hyderabad
 Alampur
@@ -937,6 +949,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+<img width="330" height="225" alt="image" src="https://github.com/user-attachments/assets/08c694ac-8e46-43f5-8e31-add9bc881f68" />
 
 cat forctype1.sh 
 ```bash
@@ -950,6 +963,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+<img width="365" height="227" alt="image" src="https://github.com/user-attachments/assets/4485b36b-ee69-4c3a-9093-125e8312c870" />
 
 cat fornested1.sh 
 ```bash
