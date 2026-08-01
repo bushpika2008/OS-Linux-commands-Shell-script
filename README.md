@@ -898,7 +898,8 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- <img width="532" height="187" alt="image" src="https://github.com/user-attachments/assets/d0242fac-2125-49dd-9b55-94a4bab60f00" />
+ <img width="427" height="312" alt="image" src="https://github.com/user-attachments/assets/5cc78e12-29b7-41f3-bdd0-c222745b4fec" />
+
 
 cat forin1.sh 
 ```bash
