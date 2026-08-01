@@ -515,24 +515,29 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-<img width="477" height="182" alt="image" src="https://github.com/user-attachments/assets/9c1f7bbc-8e76-47d2-9f3c-d88ec869c26e" />
+<img width="563" height="435" alt="Screenshot 2026-08-01 063713" src="https://github.com/user-attachments/assets/4ad9d474-3d1c-4aae-9aa6-0bd19c5a3ad0" />
 
  
 ls file1
 ## OUTPUT
+<img width="585" height="80" alt="Screenshot 2026-08-01 064036" src="https://github.com/user-attachments/assets/bad6b210-e718-4acf-84bc-40470d3a2ac6" />
 
 echo $?
 ## OUTPUT 
+<img width="590" height="87" alt="Screenshot 2026-08-01 064103" src="https://github.com/user-attachments/assets/40013402-777b-453b-b360-ebe29aa3371b" />
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+ <img width="590" height="87" alt="Screenshot 2026-08-01 064103" src="https://github.com/user-attachments/assets/16f87b8a-61fe-4378-8925-be5ca664bd26" />
+
 abcd
  
 echo $?
  ## OUTPUT
+<img width="522" height="152" alt="Screenshot 2026-08-01 064208" src="https://github.com/user-attachments/assets/aa31ccc9-dd9e-415c-a875-9b9ed5269375" />
 
 
  
@@ -572,6 +577,7 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+<img width="615" height="135" alt="Screenshot 2026-08-01 064555" src="https://github.com/user-attachments/assets/eca488e7-08a2-4fe1-aa4a-51442257e736" />
 
 
 # check file ownership
@@ -599,6 +605,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+<img width="612" height="131" alt="Screenshot 2026-08-01 065129" src="https://github.com/user-attachments/assets/fd17e1d2-60eb-46ce-a9c4-65bd0a5235e3" />
 
 # check if with file location
 cat>ifnested.sh 
@@ -646,6 +653,7 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
+<img width="721" height="181" alt="Screenshot 2026-08-01 065400" src="https://github.com/user-attachments/assets/205af136-8f48-499b-afe7-b87d1ef820f7" />
 
 
 # using numeric test comparisons
@@ -689,6 +697,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+<img width="582" height="152" alt="image" src="https://github.com/user-attachments/assets/d32d16ca-13d0-4a8d-aaa9-e50a859770a1" />
 
 # check if a file
 cat > ifnested.sh 
